@@ -28,14 +28,12 @@ export default function Typewriter({
     if (mq.addEventListener) {
       mq.addEventListener("change", listener);
     } else {
-      // @ts-expect-error legacy Safari
       mq.addListener(listener);
     }
     return () => {
       if (mq.removeEventListener) {
         mq.removeEventListener("change", listener);
       } else {
-        // @ts-expect-error legacy Safari
         mq.removeListener(listener);
       }
     };
