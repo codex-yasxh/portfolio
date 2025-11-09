@@ -20,7 +20,8 @@ export default function Reveal({ children, delayMs = 0, className }: Props) {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
             el.dataset.revealed = "true";
-            observer.unobserve(el);
+          } else {
+            el.dataset.revealed = "false";
           }
         });
       },

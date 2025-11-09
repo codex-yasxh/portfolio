@@ -32,15 +32,15 @@ export default function Home() {
       </div>
 
       <section id="contact" className="section py-12 md:py-16">
-        <div className="card p-6 md:p-8 flex flex-col gap-4 items-start">
+        <div className="card smoke-red p-6 md:p-8 flex flex-col gap-4 items-start">
           <h3 className="text-xl md:text-2xl font-semibold">
-            Let’s build something
+            Have an idea worth shipping? 
           </h3>
           <p className="text-zinc-300">
-            For inquiries or collaborations, reach out anytime.
+            I’m just one email away! Shoot your shot.
           </p>
           <div className="flex flex-wrap gap-3">
-            <a href="mailto:you@example.com" className="btn btn-primary">
+            <a href="mailto:adypatanwar07@gmail.com" className="btn btn-secondary">
               Email
             </a>
             <a href="/contact" className="btn btn-secondary">

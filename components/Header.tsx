@@ -38,7 +38,7 @@ export default function Header() {
             <a href="#projects" className="hover:text-white">Projects</a>
             <a href="#experience" className="hover:text-white">Experience</a>
             <a href="#contact" className="hover:text-white">Contact</a>
-            <a href="mailto:adit7ya0patanwar@outlook.com" className="hover:text-white">Email</a>
+            <a href="mailto:adypatanwar07@gmail.com" className="hover:text-white">Email</a>
           </nav>
           <a href="#top" className="block h-8 w-8 rounded-full overflow-hidden ring-1 ring-white/10 hover:ring-white/20">
             <img src="/toji.jpg" alt="avatar" className="h-full w-full object-cover" />

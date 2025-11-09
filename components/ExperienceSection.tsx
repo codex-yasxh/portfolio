@@ -11,7 +11,7 @@ export default function ExperienceSection() {
       <div className="flex flex-col gap-6">
         {experience.map((item, i) => (
           <Reveal key={item.company + i} delayMs={i * 90}>
-            <article className="card p-5 md:p-6">
+            <article className="card smoke-red p-5 md:p-6">
               <header className="flex flex-col gap-2 md:grid md:grid-cols-3 md:items-start md:gap-4">
                 <div className="text-zinc-200 font-medium">{item.company}</div>
                 <div className="text-zinc-300">{item.role}</div>
